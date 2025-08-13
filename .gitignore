@@ -26,10 +26,12 @@ yarn-error.log*
 
 # local env files
 .env*.local
-.env
 
 # vercel
 .vercel
+
+# ignore template folder
+PROTECOT/
 
 # typescript
 *.tsbuildinfo

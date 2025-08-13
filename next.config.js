@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
+    experimental: {
+        turbo: {
+            rules: {
+                '**/PROTECOT/**': 'ignore'
+            }
+        }
+    },
     async redirects() {
         return [
             {
